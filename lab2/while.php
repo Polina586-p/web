@@ -7,12 +7,12 @@ declare(strict_types=1);
         $length = strlen($str);
         
         while ($i < $length) {
-            echo $str[$i] . "<br>";
-            $i++;
+            echo $str[$i] . $str[$i+1] . "<br>";
+            $i += 2;
         }
     }
 
-    $var = "HELLO";
+    $var = "Привет";
 ?>
 <!DOCTYPE html>
 <html lang="ru">
