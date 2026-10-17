@@ -16,7 +16,7 @@ $code = '<?=$login?>';
 
 	function checkPasswordStrength(string $password): bool {
 		
-		if (strlen($password) < = 8) {
+		if (strlen($password) < 7) {
 			return false;
 		}
 		
