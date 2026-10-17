@@ -12,7 +12,6 @@ $code = '<?=$login?>';
 
 	$login = trim($login);
 	$login = strtolower($login);
-	$login = strtoupper($login);
 
 	function checkPasswordStrength(string $password): bool {
 		
