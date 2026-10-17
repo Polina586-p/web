@@ -1,5 +1,5 @@
 <?php
-define('MY_CONSTANT', 'Значение моей константы');
+define('MY_CONSTANT', 'Тест константы');
 ?>
 <!DOCTYPE html>
 <html lang="ru">
@@ -14,7 +14,7 @@ define('MY_CONSTANT', 'Значение моей константы');
 	<?php
 
 	if (defined('MY_CONSTANT')) {
-		echo 'Значение константы MY_CONSTANT: ' . MY_CONSTANT . '<br><br>';
+		echo 'Значение константы MY_CONSTANT: "' . MY_CONSTANT . '"<br><br>';
 	} else {
 		echo 'Константа MY_CONSTANT не определена<br><br>';
 	}
