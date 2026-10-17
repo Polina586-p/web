@@ -14,7 +14,7 @@ $constants = get_defined_constants(true);
 </head>
 
 <body>
-    <h1>Определённые константы в PHP</h1>";
+    <h1>Определённые константы в PHP<h1>";
 <?php
 echo "<div class='category'>";
 echo "<h2>Категория: " . htmlspecialchars($category) . " (" . count($category_constants) . " констант)</h2>";
