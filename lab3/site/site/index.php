@@ -36,6 +36,9 @@
 		- Сохраните файл index.php
 		- Посмотрите результат в браузере
 		*/ 
+require_once 'inc/lib.inc.php';
+require_once 'inc/data.inc.php';
+
 ?>
 <!DOCTYPE html>
 <html lang="ru">
